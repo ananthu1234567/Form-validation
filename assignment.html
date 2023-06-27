@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" style="text-align: center;">
+        <p>
+            <label for="email">Email</label>
+            <input type="text" id="field1" placeholder="Enter your Email" onkeyup="return validateEmail()">
+            <span id="err1"></span>
+        </p>
+        <p>
+            <label for="">Password</label>
+            <input type="password" id="field2" placeholder="Enter Password" onkeyup="return validatePassword()">
+            <span id="err2"></span>
+        </p>
+
+        <p>
+            <label for="">Phone number</label>
+            <input type="number" id="field3" placeholder="Enter Phone number" onkeyup="return validatePhone()">
+            <span id="err3"></span>
+        </p>
+
+        <p>
+            <button onclick="return verify()">Submit</button>
+        </p>
+       </form> 
+       <script src="assignment.js"></script>
+</body>
+</html>
